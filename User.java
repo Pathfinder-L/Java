@@ -2,7 +2,7 @@
 
 public class User
 {
-	private int age;
+	public int age;//在fix修复分支中解决严重问题,修改了访问权限
 
 	private String name;//在master分支中天添加的内容
 
