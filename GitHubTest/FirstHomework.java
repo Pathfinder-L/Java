@@ -2,20 +2,20 @@ package pathfinder;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class HelloWorld
+public class FirstHomework
 {
     public static void main(String[] args) {
-        System.out.println("ÊäÈëµÚÒ»¸öÊı×é");
+        System.out.println("è¾“å…¥ç¬¬ä¸€ä¸ªæ•°ç»„");
         int[] first = input();
-        System.out.println("µÚÒ»¸öÊı×éÅÅĞò½á¹û");
+        System.out.println("ç¬¬ä¸€ä¸ªæ•°ç»„æ’åºç»“æœ");
         sort(first);
-        System.out.println("ÊäÈëµÚ¶ş¸öÊı×é");
+        System.out.println("è¾“å…¥ç¬¬äºŒä¸ªæ•°ç»„");
         int[] second =input();
-        System.out.println("µÚ¶ş¸öÊı×éÅÅĞò½á¹û");
+        System.out.println("ç¬¬äºŒä¸ªæ•°ç»„æ’åºç»“æœ");
         sort(second);
-        System.out.println("¿ªÊ¼ºÏ²¢");
+        System.out.println("å¼€å§‹åˆå¹¶");
         int[] combination =combination(first,second);
-        System.out.println("ºÏ²¢ºóµÄÅÅĞò½á¹û");
+        System.out.println("åˆå¹¶åçš„æ’åºç»“æœ");
         sort(combination);
 
     }
